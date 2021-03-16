@@ -10,3 +10,4 @@ SELECT title, rental_rate FROM film WHERE rental_rate > (SELECT AVG(rental_rate)
 
 
 -- Q3: Get films (by id) that have been returned between may 29th, 2005 and may 30th, 2005
+SELECT inventory.film_id FROM rental JOIN inventory ON inventory.inventory_id = rental_inventory_id WHERE return_date BETWEEN '2005-05-29' AND '2005-05-30';
