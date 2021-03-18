@@ -1,5 +1,4 @@
--- SQL Lesson 1: SELECT queries 101 
--- (Link: https://sqlbolt.com/lesson/select_queries_introduction)
+-- SQL Lesson: SUBQUERIES
 
 -- Q1: find films whose rental rate is higher than the average rental rate 
 SELECT avg(rental_rate) FROM film;  #2.98
